@@ -12,7 +12,7 @@ for i in video:
     
 print("enter the desired option to dwonload format : ")
 dnoption = int(input("enter the option : "))
-dnoption = videos[dnoption]
-dnoption.download()
+dnvideo = videos[dnoption]
+dnvideo.download()
 
 print("dwonload sukses")
